@@ -1,0 +1,65 @@
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1
+1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1
+1 0 0 0 0 0 2 0 1 0 0 0 0 1 0 0 0 0 0 1
+1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 1
+1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 1 0 1 1
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1
+1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1
+1 0 1 1 1 1 1 0 1 0 0 0 1 1 1 1 1 1 0 1
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1
+1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1
+1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1
+1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1
+1 0 0 0 1 0 0 0 1 0 0 0 1 5 0 1 0 0 0 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 A A A 1 B B B 1 C C C C C D D D D D 1
+1 A A A A B B B 1 C C C C 1 D D D D D 1
+1 A A A 1 B B B B C C C C 1 D D D D D 1
+1 1 A 1 1 1 1 1 1 1 C 1 1 1 1 1 D 1 1 1
+1 E E E 1 F F F F G G G G 1 H H H H H 1
+1 E E E E F F F 1 G G G G 1 H H H H H 1
+1 1 1 E 1 1 1 1 1 1 1 G 1 1 H H H H H 1
+1 I I I 1 J J J 1 K K K 1 L L 1 1 H 1 1
+1 I I I 1 J J J J K K K 1 L L 1 M M M 1
+1 I I I 1 J J J 1 K K K K L L 1 M M M 1
+1 I 1 1 1 1 1 J 1 K K K 1 1 1 1 1 1 M 1
+1 N N N N O O O 1 K K K K P P P Q Q Q 1
+1 N N N 1 O O O 1 K K K 1 P P P Q Q 1 1
+1 N N N 1 O O O 1 K K K 1 P P 1 Q Q Q 1
+1 1 1 N 1 1 1 1 1 1 1 1 1 1 1 1 1 1 Q 1
+1 R R R 1 S S S S T T T 1 U U 1 V V V 1
+1 R R R R S S S 1 T T T 1 U U U V V V 1
+1 R R R 1 S S S 1 T T T 1 U U 1 V V V 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+- A B C D E F G H I J K L M N O P Q R S T U V  
+A - B B B E E E B E E B B B E E B B E E E B B
+B A - C C A E C C A C C C C A A C C A A A C C
+C B B - D G G G G B G G D D B B D D B B B D D 
+D C C C - C H C H C C H H H C C H H C C C H H
+E A A A A - F F A I A F F F I I F F I I I F F
+F E E E E E - G E E G G G E E E E E E E E G E
+G C C C C F F - K F K K K K K K K K F F F K K 
+H D D D D D D L - G L L L M L L L M L L L M M
+I E E E E E E E E - E E E E N N N N N N N N N
+J O O K K O K K K O - K K K O O K K O O O K K
+K J J G L G G G L G J - L L J J P P J J J P P
+L H H H H K K K H K K K - H K K K H K K K K H
+M H H H H H H H H H H Q H - Q Q Q Q Q Q Q Q Q 
+N I I I I I I I O I O O O O - O O O R R R O O  
+O N N N N N N N J N J J J J N - J J N N N J J
+P Q Q Q Q Q Q Q K K K K K Q K K - Q K K K Q Q
+Q M M M M M M M M P P P P M P P P - P P P V V
+R N N N N N N N N N N N N N N N N N - S S N N
+S R R R R R R R R R R R R R R R R R R - T R R
+T S S S S S S S S S S S S S S S S S S S - S S
+U V V V V V V V V V V V V V V V V V V V V - V
+V Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q U -
